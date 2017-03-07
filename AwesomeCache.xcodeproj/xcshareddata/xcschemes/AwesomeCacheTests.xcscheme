@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DC91F971A7C54B200C81E10"
-               BuildableName = "AwesomeCache.framework"
-               BlueprintName = "AwesomeCache-iOS"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BlueprintIdentifier = "4DC91FA11A7C54B200C81E10"
+               BuildableName = "AwesomeCacheTests.xctest"
+               BlueprintName = "AwesomeCacheTests"
+               ReferencedContainer = "container:AwesomeCache.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,17 +36,17 @@
                BlueprintIdentifier = "4DC91FA11A7C54B200C81E10"
                BuildableName = "AwesomeCacheTests.xctest"
                BlueprintName = "AwesomeCacheTests"
-               ReferencedContainer = "container:Example.xcodeproj">
+               ReferencedContainer = "container:AwesomeCache.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DC91F971A7C54B200C81E10"
-            BuildableName = "AwesomeCache.framework"
-            BlueprintName = "AwesomeCache-iOS"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "4DC91FA11A7C54B200C81E10"
+            BuildableName = "AwesomeCacheTests.xctest"
+            BlueprintName = "AwesomeCacheTests"
+            ReferencedContainer = "container:AwesomeCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DC91F971A7C54B200C81E10"
-            BuildableName = "AwesomeCache.framework"
-            BlueprintName = "AwesomeCache-iOS"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "4DC91FA11A7C54B200C81E10"
+            BuildableName = "AwesomeCacheTests.xctest"
+            BlueprintName = "AwesomeCacheTests"
+            ReferencedContainer = "container:AwesomeCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,10 +83,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DC91F971A7C54B200C81E10"
-            BuildableName = "AwesomeCache.framework"
-            BlueprintName = "AwesomeCache-iOS"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintIdentifier = "4DC91FA11A7C54B200C81E10"
+            BuildableName = "AwesomeCacheTests.xctest"
+            BlueprintName = "AwesomeCacheTests"
+            ReferencedContainer = "container:AwesomeCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D137EB519C1BD3300AC1050 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D137EB319C1BD3300AC1050 /* LaunchScreen.xib */; };
-		4D44D28D1971627700EC5FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44D28C1971627700EC5FDB /* AppDelegate.swift */; };
-		4D44D28F1971627700EC5FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44D28E1971627700EC5FDB /* ViewController.swift */; };
-		4D44D2921971627700EC5FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D44D2901971627700EC5FDB /* Main.storyboard */; };
-		4D44D2941971627700EC5FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D44D2931971627700EC5FDB /* Images.xcassets */; };
 		4D81D4A61C417012009A66A7 /* AwesomeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC91F9C1A7C54B200C81E10 /* AwesomeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D81D4A71C417019009A66A7 /* AwesomeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC91F9C1A7C54B200C81E10 /* AwesomeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D81D4AE1C417085009A66A7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC91FB81A7C552900C81E10 /* Cache.swift */; };
@@ -22,8 +17,6 @@
 		4DC91F9D1A7C54B200C81E10 /* AwesomeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC91F9C1A7C54B200C81E10 /* AwesomeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DC91FA31A7C54B200C81E10 /* AwesomeCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC91F981A7C54B200C81E10 /* AwesomeCache.framework */; };
 		4DC91FAC1A7C54B200C81E10 /* AwesomeCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC91FAB1A7C54B200C81E10 /* AwesomeCacheTests.swift */; };
-		4DC91FAF1A7C54B200C81E10 /* AwesomeCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC91F981A7C54B200C81E10 /* AwesomeCache.framework */; };
-		4DC91FB01A7C54B200C81E10 /* AwesomeCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC91F981A7C54B200C81E10 /* AwesomeCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DC91FBA1A7C552900C81E10 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC91FB81A7C552900C81E10 /* Cache.swift */; };
 		4DC91FBB1A7C552900C81E10 /* CacheObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC91FB91A7C552900C81E10 /* CacheObject.swift */; };
 		BF482C3D1CEBE4A2002B0C32 /* NSKeyedUnarchiverWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BF482C3B1CEBE4A2002B0C32 /* NSKeyedUnarchiverWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,44 +34,9 @@
 			remoteGlobalIDString = 4DC91F971A7C54B200C81E10;
 			remoteInfo = AwesomeCache;
 		};
-		4DC91FA61A7C54B200C81E10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D44D27F1971627700EC5FDB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D44D2861971627700EC5FDB;
-			remoteInfo = Example;
-		};
-		4DC91FAD1A7C54B200C81E10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D44D27F1971627700EC5FDB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DC91F971A7C54B200C81E10;
-			remoteInfo = AwesomeCache;
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4DC91FB61A7C54B200C81E10 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4DC91FB01A7C54B200C81E10 /* AwesomeCache.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		4D137EB419C1BD3300AC1050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4D44D2871971627700EC5FDB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D44D28B1971627700EC5FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D44D28C1971627700EC5FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D44D28E1971627700EC5FDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D44D2911971627700EC5FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D44D2931971627700EC5FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D81D4821C416F3C009A66A7 /* AwesomeCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D81D48F1C416F6F009A66A7 /* AwesomeCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC91F981A7C54B200C81E10 /* AwesomeCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,14 +52,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D44D2841971627700EC5FDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DC91FAF1A7C54B200C81E10 /* AwesomeCache.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D81D47E1C416F3C009A66A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +87,6 @@
 		4D44D27E1971627700EC5FDB = {
 			isa = PBXGroup;
 			children = (
-				4D44D2891971627700EC5FDB /* Example */,
 				4DC91F991A7C54B200C81E10 /* AwesomeCache */,
 				4DC91FA81A7C54B200C81E10 /* AwesomeCacheTests */,
 				4D44D2881971627700EC5FDB /* Products */,
@@ -147,34 +96,12 @@
 		4D44D2881971627700EC5FDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D44D2871971627700EC5FDB /* Example.app */,
 				4DC91F981A7C54B200C81E10 /* AwesomeCache.framework */,
 				4DC91FA21A7C54B200C81E10 /* AwesomeCacheTests.xctest */,
 				4D81D4821C416F3C009A66A7 /* AwesomeCache.framework */,
 				4D81D48F1C416F6F009A66A7 /* AwesomeCache.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4D44D2891971627700EC5FDB /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				4D44D28C1971627700EC5FDB /* AppDelegate.swift */,
-				4D44D28E1971627700EC5FDB /* ViewController.swift */,
-				4D44D2901971627700EC5FDB /* Main.storyboard */,
-				4D137EB319C1BD3300AC1050 /* LaunchScreen.xib */,
-				4D44D2931971627700EC5FDB /* Images.xcassets */,
-				4D44D28A1971627700EC5FDB /* Supporting Files */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		4D44D28A1971627700EC5FDB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D44D28B1971627700EC5FDB /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4DC91F991A7C54B200C81E10 /* AwesomeCache */ = {
@@ -248,25 +175,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D44D2861971627700EC5FDB /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D44D2A31971627700EC5FDB /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				4D44D2831971627700EC5FDB /* Sources */,
-				4D44D2841971627700EC5FDB /* Frameworks */,
-				4D44D2851971627700EC5FDB /* Resources */,
-				4DC91FB61A7C54B200C81E10 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DC91FAE1A7C54B200C81E10 /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = 4D44D2871971627700EC5FDB /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		4D81D4811C416F3C009A66A7 /* AwesomeCache-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D81D4871C416F3C009A66A7 /* Build configuration list for PBXNativeTarget "AwesomeCache-watchOS" */;
@@ -333,7 +241,6 @@
 			);
 			dependencies = (
 				4DC91FA51A7C54B200C81E10 /* PBXTargetDependency */,
-				4DC91FA71A7C54B200C81E10 /* PBXTargetDependency */,
 			);
 			name = AwesomeCacheTests;
 			productName = AwesomeCacheTests;
@@ -351,10 +258,6 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Alexander Schuch";
 				TargetAttributes = {
-					4D44D2861971627700EC5FDB = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
-					};
 					4D81D4811C416F3C009A66A7 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -372,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D44D2821971627700EC5FDB /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 4D44D2821971627700EC5FDB /* Build configuration list for PBXProject "AwesomeCache" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -385,7 +288,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D44D2861971627700EC5FDB /* Example */,
 				4DC91F971A7C54B200C81E10 /* AwesomeCache-iOS */,
 				4DC91FA11A7C54B200C81E10 /* AwesomeCacheTests */,
 				4D81D4811C416F3C009A66A7 /* AwesomeCache-watchOS */,
@@ -395,16 +297,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D44D2851971627700EC5FDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D44D2921971627700EC5FDB /* Main.storyboard in Resources */,
-				4D137EB519C1BD3300AC1050 /* LaunchScreen.xib in Resources */,
-				4D44D2941971627700EC5FDB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D81D4801C416F3C009A66A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,15 +328,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D44D2831971627700EC5FDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D44D28F1971627700EC5FDB /* ViewController.swift in Sources */,
-				4D44D28D1971627700EC5FDB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D81D47D1C416F3C009A66A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,36 +374,7 @@
 			target = 4DC91F971A7C54B200C81E10 /* AwesomeCache-iOS */;
 			targetProxy = 4DC91FA41A7C54B200C81E10 /* PBXContainerItemProxy */;
 		};
-		4DC91FA71A7C54B200C81E10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D44D2861971627700EC5FDB /* Example */;
-			targetProxy = 4DC91FA61A7C54B200C81E10 /* PBXContainerItemProxy */;
-		};
-		4DC91FAE1A7C54B200C81E10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DC91F971A7C54B200C81E10 /* AwesomeCache-iOS */;
-			targetProxy = 4DC91FAD1A7C54B200C81E10 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4D137EB319C1BD3300AC1050 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D137EB419C1BD3300AC1050 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		4D44D2901971627700EC5FDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D44D2911971627700EC5FDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D44D2A11971627700EC5FDB /* Debug */ = {
@@ -609,32 +463,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D44D2A41971627700EC5FDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aschuch.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		4D44D2A51971627700EC5FDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aschuch.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -835,20 +663,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D44D2821971627700EC5FDB /* Build configuration list for PBXProject "Example" */ = {
+		4D44D2821971627700EC5FDB /* Build configuration list for PBXProject "AwesomeCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D44D2A11971627700EC5FDB /* Debug */,
 				4D44D2A21971627700EC5FDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D44D2A31971627700EC5FDB /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D44D2A41971627700EC5FDB /* Debug */,
-				4D44D2A51971627700EC5FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

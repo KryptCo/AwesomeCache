@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D81D48E1C416F6F009A66A7"
+               BlueprintIdentifier = "4D81D4811C416F3C009A66A7"
                BuildableName = "AwesomeCache.framework"
-               BlueprintName = "AwesomeCache-tvOS"
-               ReferencedContainer = "container:Example.xcodeproj">
+               BlueprintName = "AwesomeCache-watchOS"
+               ReferencedContainer = "container:AwesomeCache.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D81D48E1C416F6F009A66A7"
+            BlueprintIdentifier = "4D81D4811C416F3C009A66A7"
             BuildableName = "AwesomeCache.framework"
-            BlueprintName = "AwesomeCache-tvOS"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintName = "AwesomeCache-watchOS"
+            ReferencedContainer = "container:AwesomeCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D81D48E1C416F6F009A66A7"
+            BlueprintIdentifier = "4D81D4811C416F3C009A66A7"
             BuildableName = "AwesomeCache.framework"
-            BlueprintName = "AwesomeCache-tvOS"
-            ReferencedContainer = "container:Example.xcodeproj">
+            BlueprintName = "AwesomeCache-watchOS"
+            ReferencedContainer = "container:AwesomeCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
